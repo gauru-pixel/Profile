@@ -124,3 +124,15 @@ footer {
   padding: 10px 0;
   text-align: center;
 }
+
+@media (max-width:768px){
+  #main img {
+    height: calc(100vh - 60px);
+  }
+  #about .content {
+    flex-direction: column;
+  }
+  #bicycle ul {
+    flex-direction: column;
+  }
+}
